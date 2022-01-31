@@ -1,2 +1,2 @@
 FROM centos
-RUN yum install nano -y
+RUN dnf install nano -y
