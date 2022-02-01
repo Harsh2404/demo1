@@ -4,3 +4,4 @@ RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|
 RUN yum upgrade -y
 RUN yum install nano -y
 RUN yum install python36 -y
+RUN yum install git -y
